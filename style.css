@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "montserrat";
+    src: url();
+}
+
+:root {
+    --roxo-leadership: #6A10C4;
+    --amarelo-leadership: #FFC421;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    height: 350px;
+    background-color: var(--amarelo-leadership);
+}
+
+header div.container-grid {
+    height: 100%;
+    width: 90%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.menu {
+    width: 400px;
+
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.LeadershipGamis {
+    width: 100px;
+
+    display: flex;
+    align-items: center;
+}
