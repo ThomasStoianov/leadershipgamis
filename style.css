@@ -18,29 +18,44 @@
 header {
     height: 350px;
     background-color: var(--amarelo-leadership);
-}
-
-header div.container-grid {
-    height: 100%;
-    width: 90%;
-    display:flex;
+    display: flex;
+    justify-content: flex-start;
     align-items: center;
-    justify-content: space-between;
     flex-direction: column;
+
 }
 
-.menu {
-    width: 400px;
-
-    display: flex;
-    align-items: right;
-    justify-content: space-between;
-    align-items: flex-end;
-}
-
-.LeadershipGamis {
-    width: 100px;
-
+header .container-grid {
     display: flex;
     align-items: center;
+   
 }
+
+header img {
+    width: 243px;
+    height: 199px;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 300px;
+}
+
+header h1 {
+    display: flex;
+    font-size: 60px;
+    font-family: 'Protest Guerrilla';
+}
+
+header nav.menu {
+    width: 500px;
+    height: 30px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+nav.menu a {
+    font-size: 36px;
+    font-family: 'Protest Riot';
+    color: black;
+}
+
