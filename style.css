@@ -19,9 +19,9 @@ header {
     height: 350px;
     background-color: var(--amarelo-leadership);
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -31,19 +31,45 @@ header {
     margin: 0 auto;
     display: flex;
     align-items: center;
-   
+
+}
+
+header .logo {
+
+    width: 100%;
+
+}
+
+.um {
+    display: flex;
+    align-items: flex-start;
+    
+    position: relative;
+    left: 30px;
+}
+
+.dois {
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+.dois h1 {
+
+    display: unset;
+    position: relative;
+    bottom: 100px;
+
 }
 
 header img {
     width: 243px;
     height: 199px;
-    display: flex;
-    justify-content: flex-start;
-    margin-right: 300px;
 }
 
 header h1 {
-    display: flex;
     font-size: 60px;
     font-family: 'Protest Guerrilla';
 }
@@ -54,6 +80,9 @@ header nav.menu {
 
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
+    margin-left: 700px;
+
 }
 
 nav.menu a {
@@ -65,14 +94,14 @@ nav.menu a {
 .banner {
     height: 100vh;
 
-    background-image:linear-gradient(90deg,rgba(129,31,226,1) 0%,rgba(129,31,226,0.24)100% ), url(Group\ 67\ \(2\).png);
+    background-image: linear-gradient(90deg, rgba(129, 31, 226, 1) 0%, rgba(129, 31, 226, 0.24)100%), url(Group\ 67\ \(2\).png);
     background-repeat: no-repeat;
 }
 
 #contato {
     height: 70vh;
     width: 560px;
-    
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -113,7 +142,7 @@ button {
     margin-top: 10px;
 
     background-color: #FFC421;
-    border:#6A10C4 solid 4px;
+    border: #6A10C4 solid 4px;
 }
 
 form {
@@ -138,7 +167,7 @@ form {
 }
 
 #sobre {
-    height: 30vh;
+    height: 300px;
     width: 100%;
 
     display: flex;
@@ -158,27 +187,87 @@ form {
     font-family: 'Montserrat';
     text-align: center;
 }
+
 .container-grid {
     display: flex;
 
 }
 
 #cases {
-    height: 50vh;
+    height: 600px;
     width: 100%;
+
+    display: flex;
+    flex-direction: column;
 }
+
 #cases h2 {
     font-family: 'Protest Riot';
     font-size: 36px;
+    margin-bottom: 20px;
 
     text-align: center;
 
 }
 
-#cases.container-grid {
+.conteudo {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.card {
+    height: 439px;
+    width: 300px;
+    border-radius: 30px;
+
+    background-color: #6A10C4;
 
     display: flex;
-    justify-content: center;
-    padding-bottom: 30px;
+    flex-direction: column;
+    padding: 20px;
 
 }
+
+.card p {
+    font-size: 20px;
+    font-family: 'Montserrat';
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+footer {
+    height: 400px;
+    width: 100%;
+    background-color: #6A10C4;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+footer p {
+    font-size: 36px;
+    font-family: 'Montserrat';
+    color: white;
+
+}
+
+.redes-sociais {
+    height: 221px;
+    width: 221px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-right: 100px;
+}
+
+.redes-sociais svg {
+    margin: 10px;
+}
+
+
