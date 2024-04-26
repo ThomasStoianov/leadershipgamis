@@ -111,7 +111,7 @@ nav.menu a:hover {
 }
 
 #contato {
-    height: 70vh;
+    height: 80vh;
     width: 560px;
 
     display: flex;
@@ -181,7 +181,7 @@ form {
 }
 
 #sobre {
-    height: 300px;
+    height: 50vh;
     width: 100%;
 
     display: flex;
@@ -284,6 +284,21 @@ footer p {
     margin: 10px;
 }
 
+@media screen and (Max-width:1500px) {
+
+    #contato {
+        height: 100vh;
+    }
+    
+    #jogo {
+        height: 50vh;
+    }
+
+    #sobre {
+        height: 80vh;
+    }
+}
+
 @media screen and (max-width:1360px) {
     header {
         position: relative;
@@ -313,7 +328,7 @@ footer p {
 
     nav.menu {
         height: 400px;
-        width: 250px;
+        width: 30%;
 
         padding: 15px;
 
@@ -327,15 +342,184 @@ footer p {
         justify-content: space-around;
         align-items: center;
 
-        top: 50px;
+        top: 175px;
         right: 10px;
+    }
+
+    nav.menu a {
+        color: white;
+    }
+
+    #contato {
+        height: 100vh;
+    }
+
+    #jogo {
+        height: 30vh;
+    }
+
+    #sobre {
+        height: 60vh;
     }
 }
 
 @media screen and (max-width:1050px) {
     
-    .cards {
+    .conteudo {
         height: 200px;
         width: 100px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 200px;
     }
+
+    #cases {
+        height: 1000px;
+        width: 100%;
+
+    }
+
+    .card {
+        height: 400px;
+        width: 300px;
+        margin-bottom: 50px;
+    }
+
+    .card p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:850px) {
+
+    header img {
+        height: 170px;
+    }
+
+    header h1 {
+        font-size: 50px;
+    }
+
+    #sobre {
+        height: 400px;
+    }
+
+    footer p {
+
+        margin-left: 100px;
+    }
+    
+}
+
+@media screen and (max-width:700px) {
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    header img {
+        height: 150px;
+    }
+
+    #jogo {
+        height: 40vh;
+    }
+    
+}
+
+@media screen and (max-width:650px) {
+
+    header img {
+        height: 100px;
+    }
+    
+    header h1 {
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #contato {
+        height: 130vh;
+    }
+    
+    #sobre {
+        height: 110vh;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    header img {
+        height: 75px;
+    }
+
+    .dois {
+    }
+
+    #contato {
+        height: 90vh;
+        width: 300px;
+    }
+
+    form input {
+        width: 400px;
+    }
+
+    #contato h2 {
+        font-size: 24px;
+    }
+
+    #jogo {
+        height: 20vh;
+    }
+
+    #jogo a {
+        font-size: 32px;
+    }
+
+    #sobre {
+        height: 80vh;
+    }
+
+    footer p {
+
+        font-size: 24px;
+        margin-left: 120px;
+    }
+    
+
+    .redes-sociais {
+        height: 130px;
+        width: 250px;
+    }
+}
+
+@media screen and (max-width:560px) {
+
+    header h1 {
+        font-size: 20px;
+    }
+    
+    nav.menu {
+        padding-left: 140px;
+    }
+
+    footer p
+
+    .redes-sociais {
+
+        position: relative;
+        left: 30px;
+
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width:) {
+    
 }
