@@ -287,7 +287,7 @@ footer p {
 @media screen and (Max-width:1500px) {
 
     #contato {
-        height: 100vh;
+        height: 120vh;
     }
     
     #jogo {
@@ -302,6 +302,10 @@ footer p {
 @media screen and (max-width:1360px) {
     header {
         position: relative;
+    }
+
+    header .logo {
+        
     }
 
     header .burger {
@@ -351,15 +355,19 @@ footer p {
     }
 
     #contato {
-        height: 100vh;
+        height: 110vh;
     }
 
     #jogo {
-        height: 30vh;
+        height: 50vh;
     }
 
     #sobre {
-        height: 60vh;
+        height: 90vh;
+    }
+
+    footer .redes-sociais {
+        width: 350px;
     }
 }
 
@@ -392,6 +400,30 @@ footer p {
     }
 }
 
+@media screen and (max-width: 910px) {
+
+    #contato {
+        height: 120vh;
+    }
+
+    #jogo {
+        height: 80vh;
+    }
+    
+    #contato {
+        height: 110vh;
+    }
+
+    footer p {
+        font-size: 30px;
+    }
+
+    footer .redes-sociais img {
+        width: 80px;
+    }
+    
+}
+
 @media screen and (max-width:850px) {
 
     header img {
@@ -408,9 +440,24 @@ footer p {
 
     footer p {
 
-        margin-left: 100px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    footer .redes-sociais img {
+        width: 60px;
+    }
+
+    footer .redes-sociais {
+        margin: 0 auto;
+
+        padding-top: 20px;
     }
     
+    
+    .container-grid {
+        display: unset;
+    }
 }
 
 @media screen and (max-width:700px) {
@@ -455,13 +502,16 @@ footer p {
 
     header img {
         height: 75px;
+        width: 75px;
+        margin-left: 25px;
+        
     }
 
     .dois {
     }
 
     #contato {
-        height: 90vh;
+        height: 120vh;
         width: 300px;
     }
 
@@ -474,7 +524,7 @@ footer p {
     }
 
     #jogo {
-        height: 20vh;
+        height: 50vh;
     }
 
     #jogo a {
@@ -482,13 +532,13 @@ footer p {
     }
 
     #sobre {
-        height: 80vh;
+        height: 120vh;
     }
 
     footer p {
 
         font-size: 24px;
-        margin-left: 120px;
+        text-align: center;
     }
     
 
@@ -508,6 +558,10 @@ footer p {
         padding-left: 140px;
     }
 
+    #sobre {
+        height: 130vh;
+    }
+
     footer p
 
     .redes-sociais {
@@ -520,6 +574,103 @@ footer p {
     }
 }
 
-@media screen and (max-width:) {
+@media screen and (max-width:520px) {
+
+    #sobre {
+        height: 130vh;
+    }
+
+    footer .redes-sociais img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-grid {
+        display: unset;
+    }
+    
+}
+
+@media screen and (max-width:470px) {
+
+    #sobre {
+        height: 140vh;
+    }
+    
+    #jogo img{
+            display: none;
+    }
+
+
+    
+}
+
+@media screen and (max-width:440px) {
+
+
+
+    form input {
+        width: 320px;
+        height: 40px;
+    }
+
+    form label {
+        font-size: 18px;
+    }
+
+    footer .redes-sociais {
+        width: 225px;
+
+    }
+
+    
+    footer .redes-sociais img{
+        width: 40px;
+    }
+}
+
+@media screen and (max-width: 370px){
+
+    #jogo {
+        height: 25vh;
+    }
+
+    nav.menu {
+        left: 0px;
+        border-radius: unset;
+        top: 149px;
+        
+
+    }
+
+    header nav.menu {
+        width: 100%;
+        padding-left: unset;
+        padding-right: unset;
+        align-self: unset;
+        align-items: center;
+    }
+
+    #contato {
+        height: 80vh;
+    }
+
+    #sobre {
+        height: 120vh;
+    }
+}
+
+@media screen and (max-width:340px) {
+
+    form input {
+        width: 275px;
+    }
+
+    button {
+        height: 30px;
+        width: 190px;
+        font-size: 20px;
+    }
     
 }
