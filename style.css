@@ -26,7 +26,7 @@ header {
 
 }
 
-header .burger {
+header button {
     display: none;
 }
 
@@ -100,11 +100,19 @@ nav.menu a:hover {
     color: #6A10C4;
 }
 
+.menu-fechado {
+    display: none;
+}
+
+#icone-barras {
+    display: none;
+}
+
 .banner {
     height: 120vh;
     width: 100%;
 
-    background-image: linear-gradient(90deg, rgba(129, 31, 226, 1) 0%, rgba(129, 31, 226, 0.24)100%), url(Group\ 67\ \(2\).png);
+    background-image: linear-gradient(90deg, rgba(129, 31, 226, 1) 0%, rgba(129, 31, 226, 0.24)100%), url(img/Group\ 67\ \(2\).png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -274,6 +282,8 @@ footer p {
     height: 221px;
     width: 221px;
 
+    margin-left: 400px;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -308,7 +318,7 @@ footer p {
         
     }
 
-    header .burger {
+    header button {
         width: 50px;
 
         display: flex;
@@ -319,13 +329,13 @@ footer p {
         position: absolute;
     }
 
-    .burger {
+    button {
         position: relative;
         top: 50px;
         right: 30px;
     }
 
-    .burger svg {
+    button svg {
         fill: black
 
     }
