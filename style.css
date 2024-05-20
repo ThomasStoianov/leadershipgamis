@@ -78,34 +78,24 @@ header h1 {
     font-family: 'Protest Guerrilla';
 }
 
-header nav.menu {
+.menu {
     width: 40%;
 
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
-    margin-bottom: 40px;
     align-self: flex-end;
-    padding-right: 100px;
-
+    padding-right: 90px;
 }
 
-nav.menu a {
+.menu a {
     font-size: 36px;
     font-family: 'Protest Riot';
     color: black;
+    text-align: center;
 }
 
-nav.menu a:hover {
+.menu a:hover {
     color: #6A10C4;
-}
-
-.menu-fechado {
-    display: none;
-}
-
-#icone-barras {
-    display: none;
 }
 
 .banner {
@@ -282,16 +272,22 @@ footer p {
     height: 221px;
     width: 221px;
 
-    margin-left: 400px;
-
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-right: 100px;
 }
 
 .redes-sociais svg {
     margin: 10px;
+}
+
+#icone-barras {
+    display: none;
+}
+
+.menu-fechado {
+
+    display: none;
 }
 
 @media screen and (Max-width:1500px) {
@@ -314,10 +310,6 @@ footer p {
         position: relative;
     }
 
-    header .logo {
-        
-    }
-
     header button {
         width: 50px;
 
@@ -327,12 +319,8 @@ footer p {
         border: none;
 
         position: absolute;
-    }
-
-    button {
-        position: relative;
-        top: 50px;
-        right: 30px;
+        right: 50px;
+        top: 100px;
     }
 
     button svg {
@@ -342,7 +330,7 @@ footer p {
 
     nav.menu {
         height: 400px;
-        width: 30%;
+      
 
         padding: 15px;
 
@@ -377,7 +365,7 @@ footer p {
     }
 
     footer .redes-sociais {
-        width: 350px;
+        width: 90%;
     }
 }
 
@@ -517,9 +505,6 @@ footer p {
         
     }
 
-    .dois {
-    }
-
     #contato {
         height: 120vh;
         width: 300px;
@@ -563,16 +548,14 @@ footer p {
     header h1 {
         font-size: 20px;
     }
-    
-    nav.menu {
-        padding-left: 140px;
+
+    .menu a {
+        font-size: 32px;
     }
 
     #sobre {
         height: 130vh;
     }
-
-    footer p
 
     .redes-sociais {
 
@@ -598,6 +581,10 @@ footer p {
 
     .container-grid {
         display: unset;
+    }
+
+    .menu a {
+        font-size: 30px;
     }
     
 }
