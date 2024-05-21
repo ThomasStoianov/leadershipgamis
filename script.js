@@ -24,7 +24,7 @@ function AbrirFechar() {
 
 window.onresize = () => {
     menu.classList.remove("menu-fechado");
-    iconeX.style.display = "inline"
+    iconex.style.display = "inline"
     iconebarras.style.display = "none"
 }
 
