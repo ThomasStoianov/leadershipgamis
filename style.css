@@ -528,7 +528,7 @@ footer p {
     }
 
     #sobre {
-        height: 50vh;
+        height: 70vh;
     }
 
     footer p {
@@ -592,7 +592,7 @@ footer p {
 @media screen and (max-width:470px) {
 
     #sobre {
-        height: 60vh;
+        height: 70vh;
     }
     
     #jogo img{
